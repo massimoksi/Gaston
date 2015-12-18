@@ -1,0 +1,20 @@
+disabled_rules: # rule identifiers to exclude from running
+  - todo
+  - force_cast
+  - force_try
+included: # paths to include during linting. `--path` is ignored if present.
+  - Gaston
+# parameterized rules can be customized from this configuration file
+line_length: 110
+# parameterized rules are first parameterized as a warning level, then error level.
+type_body_length:
+  - 300 # warning
+  - 400 # error
+# parameterized rules are first parameterized as a warning level, then error level.
+variable_name_max_length:
+  - 40 # warning
+  - 60 # error
+# parameterized rules are first parameterized as a warning level, then error level.
+variable_name_min_length:
+  - 3 # warning
+  - 2 # error
