@@ -4,4 +4,7 @@
    <FileRef
       location = "group:Gaston.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Gaston.playground">
+   </FileRef>
 </Workspace>
