@@ -19,6 +19,7 @@ DerivedData
 *.xcuserstate
 #*.xcworkspace/
 #*.playground/
+UserInterfaceState.xcuserstate
 
 ###############################################################################
 # OS X
