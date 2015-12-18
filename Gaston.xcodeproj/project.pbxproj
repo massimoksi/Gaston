@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		56CCC6781C24570E0041416D /* Gaston.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CCC6771C24570E0041416D /* Gaston.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E391FD1C245A5900F99387 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E391FC1C245A5900F99387 /* Bool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		56CCC6741C24570E0041416D /* Gaston.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gaston.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CCC6771C24570E0041416D /* Gaston.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gaston.h; sourceTree = "<group>"; };
 		56CCC6791C24570E0041416D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E391FC1C245A5900F99387 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				56CCC6771C24570E0041416D /* Gaston.h */,
+				56E391FC1C245A5900F99387 /* Bool.swift */,
 				56CCC6791C24570E0041416D /* Info.plist */,
 			);
 			path = Gaston;
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E391FD1C245A5900F99387 /* Bool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +232,7 @@
 		56CCC67D1C24570E0041416D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -238,12 +243,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.massimoperi.Gaston;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		56CCC67E1C24570E0041416D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

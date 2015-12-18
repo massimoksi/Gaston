@@ -3,4 +3,7 @@
 import UIKit
 import Gaston
 
-var str = "Hello, playground"
+//: Toggle a boolean variable.
+
+var flag = false
+flag.toggle()
