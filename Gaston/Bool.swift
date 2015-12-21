@@ -23,8 +23,8 @@ import Foundation
 public extension Bool {
 
     /**
-        Toggle the value of a boolean variable\.
-     */
+        Toggles the value of a boolean variable.
+    */
     public mutating func toggle() {
         self = !self
     }
