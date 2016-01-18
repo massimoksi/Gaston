@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561452AA1C3F1FF5007C7AFF /* NSCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561452A91C3F1FF5007C7AFF /* NSCalendar.swift */; };
 		56B1C6001C24CD7100AB4F61 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B1C5FF1C24CD7100AB4F61 /* UIColor.swift */; };
 		56CCC6781C24570E0041416D /* Gaston.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CCC6771C24570E0041416D /* Gaston.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56E391FD1C245A5900F99387 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E391FC1C245A5900F99387 /* Bool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		561452A91C3F1FF5007C7AFF /* NSCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCalendar.swift; sourceTree = "<group>"; };
 		56B1C5FF1C24CD7100AB4F61 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		56CCC6741C24570E0041416D /* Gaston.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gaston.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CCC6771C24570E0041416D /* Gaston.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gaston.h; sourceTree = "<group>"; };
@@ -52,8 +54,9 @@
 			children = (
 				56CCC6771C24570E0041416D /* Gaston.h */,
 				56E391FC1C245A5900F99387 /* Bool.swift */,
-				56CCC6791C24570E0041416D /* Info.plist */,
 				56B1C5FF1C24CD7100AB4F61 /* UIColor.swift */,
+				561452A91C3F1FF5007C7AFF /* NSCalendar.swift */,
+				56CCC6791C24570E0041416D /* Info.plist */,
 			);
 			path = Gaston;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				56E391FD1C245A5900F99387 /* Bool.swift in Sources */,
 				56B1C6001C24CD7100AB4F61 /* UIColor.swift in Sources */,
+				561452AA1C3F1FF5007C7AFF /* NSCalendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
