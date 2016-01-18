@@ -35,6 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56B2BF091C4DAF4F00D01DD9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				56B1C5FF1C24CD7100AB4F61 /* UIColor.swift */,
+				56B2BF071C4DAD6400D01DD9 /* UIFont.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		56B2BF0A1C4DAF7800D01DD9 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				561452A91C3F1FF5007C7AFF /* NSCalendar.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		56B2BF0B1C4DAF8D00D01DD9 /* Data types */ = {
+			isa = PBXGroup;
+			children = (
+				56E391FC1C245A5900F99387 /* Bool.swift */,
+			);
+			name = "Data types";
+			sourceTree = "<group>";
+		};
 		56CCC66A1C24570E0041416D = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				56CCC6771C24570E0041416D /* Gaston.h */,
-				56E391FC1C245A5900F99387 /* Bool.swift */,
-				56B1C5FF1C24CD7100AB4F61 /* UIColor.swift */,
-				561452A91C3F1FF5007C7AFF /* NSCalendar.swift */,
+				56B2BF0B1C4DAF8D00D01DD9 /* Data types */,
+				56B2BF0A1C4DAF7800D01DD9 /* Foundation */,
+				56B2BF091C4DAF4F00D01DD9 /* UIKit */,
 				56CCC6791C24570E0041416D /* Info.plist */,
-				56B2BF071C4DAD6400D01DD9 /* UIFont.swift */,
 			);
 			path = Gaston;
 			sourceTree = "<group>";
