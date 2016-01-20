@@ -40,7 +40,7 @@ import Gaston
 
 The repository includes a Swift playground to demonstrate the usage of some of the methods of the libray.
 
-All extensions are commented using Swift header documentation as described in this [article](http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/).
+All extensions are commented using Swift header documentation as described in this Erica Sadun's post on [Swift header documentation in Xcode 7](http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/).
 
 Documentation is generated with [jazzy](https://github.com/Realm/jazzy) and can be found in the Documentation directory.
 
