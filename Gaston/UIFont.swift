@@ -33,7 +33,8 @@ public extension UIFont {
             return UIFont(descriptor: newFontDescriptor, size: 0.0)
         } else {
             return self
-        }    }
+        }
+    }
 
 }
 
