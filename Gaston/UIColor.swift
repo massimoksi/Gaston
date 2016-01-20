@@ -23,13 +23,13 @@ import UIKit
 public extension UIColor {
 
     /**
-        Initializes and returns a color object using the specified opacity and RGB component values.
+     Initializes and returns a color object using the specified opacity and RGB component values.
 
-        - parameter r: The red component of the color object, specified as a value from 0 to 255.
-        - parameter g: The green component of the color object, specified as a value from 0 to 255.
-        - parameter b: The blue component of the color object, specified as a value from 0 to 255.
-        - parameter a: The opacity value of the color object, specified as a value from 0.0 to 1.0.
-    */
+     - parameter r: The red component of the color object, specified as a value from 0 to 255.
+     - parameter g: The green component of the color object, specified as a value from 0 to 255.
+     - parameter b: The blue component of the color object, specified as a value from 0 to 255.
+     - parameter a: The opacity value of the color object, specified as a value from 0.0 to 1.0.
+     */
     public convenience init(r: Int, g: Int, b: Int, a: CGFloat) {
         self.init(red: CGFloat(r)/255.0, green: CGFloat(g)/255.0, blue: CGFloat(b)/255.0, alpha: a)
     }

@@ -23,8 +23,8 @@ import UIKit
 public extension UIFont {
 
     /**
-        A version of the font with monospaced numbers.
-    */
+     A version of the font with monospaced numbers.
+     */
     public var monospacedDigitFont: UIFont {
         if #available(iOS 9, *) {
             let oldFontDescriptor = fontDescriptor()

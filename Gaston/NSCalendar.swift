@@ -23,10 +23,10 @@ import Foundation
 public extension NSCalendar {
 
     /**
-        Returns a new `NSCalendar` created with `NSCalendarIdentifierGregorian` identifier.
+     Returns a new `NSCalendar` created with `NSCalendarIdentifierGregorian` identifier.
 
-        - returns: The Gregorian calendar.
-    */
+     - returns: The Gregorian calendar.
+     */
     public func gregorianCalendar() -> NSCalendar {
         return NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
     }
