@@ -4,7 +4,7 @@ disabled_rules:
   - force_try
   - variable_name_min_length
 included:
-  - Gaston
+  - Source
 line_length: 110
 type_body_length:
   - 300 # warning

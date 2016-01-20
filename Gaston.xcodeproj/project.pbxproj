@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		561452AA1C3F1FF5007C7AFF /* NSCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561452A91C3F1FF5007C7AFF /* NSCalendar.swift */; };
-		56B1C6001C24CD7100AB4F61 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B1C5FF1C24CD7100AB4F61 /* UIColor.swift */; };
-		56B2BF081C4DAD6400D01DD9 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B2BF071C4DAD6400D01DD9 /* UIFont.swift */; };
-		56CCC6781C24570E0041416D /* Gaston.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CCC6771C24570E0041416D /* Gaston.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56E391FD1C245A5900F99387 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E391FC1C245A5900F99387 /* Bool.swift */; };
+		56B2BF131C5026E400D01DD9 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B2BF0D1C5026E400D01DD9 /* Bool.swift */; };
+		56B2BF141C5026E400D01DD9 /* Gaston.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B2BF0E1C5026E400D01DD9 /* Gaston.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56B2BF161C5026E400D01DD9 /* NSCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B2BF101C5026E400D01DD9 /* NSCalendar.swift */; };
+		56B2BF171C5026E400D01DD9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B2BF111C5026E400D01DD9 /* UIColor.swift */; };
+		56B2BF181C5026E400D01DD9 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B2BF121C5026E400D01DD9 /* UIFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		561452A91C3F1FF5007C7AFF /* NSCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCalendar.swift; sourceTree = "<group>"; };
-		56B1C5FF1C24CD7100AB4F61 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		56B2BF071C4DAD6400D01DD9 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		56B2BF0D1C5026E400D01DD9 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		56B2BF0E1C5026E400D01DD9 /* Gaston.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gaston.h; sourceTree = "<group>"; };
+		56B2BF0F1C5026E400D01DD9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B2BF101C5026E400D01DD9 /* NSCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCalendar.swift; sourceTree = "<group>"; };
+		56B2BF111C5026E400D01DD9 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		56B2BF121C5026E400D01DD9 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		56CCC6741C24570E0041416D /* Gaston.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gaston.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56CCC6771C24570E0041416D /* Gaston.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gaston.h; sourceTree = "<group>"; };
-		56CCC6791C24570E0041416D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56E391FC1C245A5900F99387 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,35 +35,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		56B2BF091C4DAF4F00D01DD9 /* UIKit */ = {
+		56B2BF0C1C5026E400D01DD9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				56B1C5FF1C24CD7100AB4F61 /* UIColor.swift */,
-				56B2BF071C4DAD6400D01DD9 /* UIFont.swift */,
+				56B2BF0E1C5026E400D01DD9 /* Gaston.h */,
+				56B2BF0D1C5026E400D01DD9 /* Bool.swift */,
+				56B2BF101C5026E400D01DD9 /* NSCalendar.swift */,
+				56B2BF111C5026E400D01DD9 /* UIColor.swift */,
+				56B2BF121C5026E400D01DD9 /* UIFont.swift */,
+				56B2BF0F1C5026E400D01DD9 /* Info.plist */,
 			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		56B2BF0A1C4DAF7800D01DD9 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				561452A91C3F1FF5007C7AFF /* NSCalendar.swift */,
-			);
-			name = Foundation;
-			sourceTree = "<group>";
-		};
-		56B2BF0B1C4DAF8D00D01DD9 /* Data types */ = {
-			isa = PBXGroup;
-			children = (
-				56E391FC1C245A5900F99387 /* Bool.swift */,
-			);
-			name = "Data types";
+			path = Source;
 			sourceTree = "<group>";
 		};
 		56CCC66A1C24570E0041416D = {
 			isa = PBXGroup;
 			children = (
-				56CCC6761C24570E0041416D /* Gaston */,
+				56B2BF0C1C5026E400D01DD9 /* Source */,
 				56CCC6751C24570E0041416D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,18 +64,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56CCC6761C24570E0041416D /* Gaston */ = {
-			isa = PBXGroup;
-			children = (
-				56CCC6771C24570E0041416D /* Gaston.h */,
-				56B2BF0B1C4DAF8D00D01DD9 /* Data types */,
-				56B2BF0A1C4DAF7800D01DD9 /* Foundation */,
-				56B2BF091C4DAF4F00D01DD9 /* UIKit */,
-				56CCC6791C24570E0041416D /* Info.plist */,
-			);
-			path = Gaston;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -95,7 +71,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56CCC6781C24570E0041416D /* Gaston.h in Headers */,
+				56B2BF141C5026E400D01DD9 /* Gaston.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,10 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56B2BF081C4DAD6400D01DD9 /* UIFont.swift in Sources */,
-				56E391FD1C245A5900F99387 /* Bool.swift in Sources */,
-				56B1C6001C24CD7100AB4F61 /* UIColor.swift in Sources */,
-				561452AA1C3F1FF5007C7AFF /* NSCalendar.swift in Sources */,
+				56B2BF171C5026E400D01DD9 /* UIColor.swift in Sources */,
+				56B2BF161C5026E400D01DD9 /* NSCalendar.swift in Sources */,
+				56B2BF181C5026E400D01DD9 /* UIFont.swift in Sources */,
+				56B2BF131C5026E400D01DD9 /* Bool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +267,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Gaston/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -310,7 +286,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Gaston/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
