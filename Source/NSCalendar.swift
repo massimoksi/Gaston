@@ -27,7 +27,7 @@ public extension NSCalendar {
 
      - returns: The Gregorian calendar.
      */
-    public func gregorianCalendar() -> NSCalendar {
+    public static func gregorianCalendar() -> NSCalendar {
         return NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
     }
 
