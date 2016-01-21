@@ -1,6 +1,6 @@
 # Gaston
 
-Gaston is a growing set of Swift extensions for standard data types and classes I find useful in my day-to-day app development.
+Gaston is a growing set of Swift extensions - for standard data types and classes - I find useful in my day-to-day app development.
 
 This library is named after my son's favourite toy, meaning something I always need to remember to carry with me.
 
@@ -30,7 +30,7 @@ $ pod install
 
 ## Usage
 
-To start using the extensions in your code, just import the library in your source code:
+To start using the extensions in your code, just import the library in your source files:
 
 ```swift
 import Gaston
@@ -40,7 +40,7 @@ import Gaston
 
 The repository includes a Swift playground to demonstrate the usage of some of the methods of the libray.
 
-All extensions are commented using Swift header documentation as described in this Erica Sadun's post on [Swift header documentation in Xcode 7](http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/).
+All extensions are commented following Erica Sadun's post on [Swift header documentation in Xcode 7](http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/).
 
 ## Contact
 
